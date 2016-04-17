@@ -1,0 +1,76 @@
+﻿body
+ {
+     margin:30px auto;
+     padding:0;
+     background:#66FFFF;
+}
+.div2 
+{
+	width:960px;
+	margin:auto;
+	overflow: hidden;
+	margin-bottom: 30px;
+   -moz-border-radius: 0px 0px 7px 7px;
+   -webkit-border: 0px 0px 7px 7px;
+   -webkit-box-shadow: rgba(0, 0, 0, 0.5) 0px 0px 5px;
+   -moz-box-shadow: rgba(0, 0, 0, 0.5) 0px 0px 5px;
+	padding: 0px 0px 0px 0px;
+	margin:40px auto;
+	margin-bottom:30px;  
+	font-weight: normal; 
+	background:#009999;
+	
+}
+.menu2
+{
+	float:left;
+	width:150px;
+	padding: 5px 0px 10px 0px;
+	margin: 10px;
+	margin-left:6px;
+}
+.menu ul,.menu2 ul
+{
+	margin:0px;
+	list-style:none;
+	padding-left:0px;
+	padding-top:5px;
+}
+.menu li,.menu2 li
+{
+	display:inline;
+}
+.menu a,.menu2 a
+{
+	height: 33px;
+	width: 150px;
+	font-family:Calibri;
+	font-size:17px;
+	font-style:oblique;
+	font-weight:bold;
+	color:#003366;
+	text-decoration:none;
+	float:left;
+	text-align:center;
+	background-repeat:no-repeat;
+	padding-right:0px;
+	line-height:2em;
+	vertical-align:middle;
+}
+.menu a:hover,.menu a:active,.menu a:focus,.menu2 a:hover,.menu2 a:active,.menu2 a:focus
+{
+	height:30px;
+	width:150px;
+	color:#0099FF;
+	background-image:url(Picture/MenuHover.png);
+	background-repeat:no-repeat;
+	padding-right:0px;
+	text-decoration:none;
+	text-transform:none;
+}
+.body2
+{
+	width:750px;
+	height:auto;
+	float:left;
+}

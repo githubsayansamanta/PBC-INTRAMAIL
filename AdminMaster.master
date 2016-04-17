@@ -1,0 +1,67 @@
+﻿<%@ Master Language="VB" CodeFile="AdminMaster.master.vb" Inherits="AdminMaster" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title></title>
+     <link href="StyleSheetAdmin.css" rel="Stylesheet" type="text/css" />
+    <asp:ContentPlaceHolder id="head" runat="server">
+    </asp:ContentPlaceHolder>
+    <style type="text/css">
+
+        .style1
+        {
+            width: 950px;
+            height:auto;
+        }
+        .style2
+        {
+            height: 150px;
+            background-color: #006666;
+        }
+        .style3
+        {
+            width: 150px;
+        }
+  
+    </style>
+</head>
+<body>
+    <form id="form1" runat="server">
+    <div class="div3">
+       <table class="style1"><tr style="vertical-align:middle;">
+ <td class="style2" align="center" 
+               
+               
+               
+               
+               style="font-family: Calibri; font-size: 70px; font-weight: bolder; color: #CCFFFF">
+     PBC Administrator</td>
+ </tr>
+                    </table>
+            <table style="border-width: 0px 0px 0px 0px; border-color: #00CC99; background-color:#00CC99; width: 950px; border-top-style: solid; border-bottom-style: solid; height:400px; font-family: Calibri;">
+ <tr style="vertical-align:top;">
+                <td class="style3" style="text-align:center; background-color:#00CC99;">
+                     
+ <div class="menu3">
+  <ul>
+	  <li><a href="AdminInbox.aspx">Inbox</a></li>
+	  <li><a href="AdminCompose.aspx">Compose Mail</a></li>
+	  <li><a href="AdminSent.aspx">Sent Mail</a></li>
+	  <li><a href="AdminDraft.aspx">Draft</a></li>
+      <li><a href="AdminChange.aspx">Change Password</a></li>
+ </ul>
+ </div>
+ </td>
+                <td style="background-color: #00CC99">
+                     <div class="body3">
+	 <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+	 </asp:ContentPlaceHolder>
+ </div></td>
+  </tr>
+ </table>
+    </div>
+    </form>
+</body>
+</html>
